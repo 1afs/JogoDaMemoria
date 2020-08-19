@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Singleplayer4cards">
 
-    <ImageView
+    <ImageButton
         android:id="@+id/img1"
         android:layout_width="60dp"
         android:layout_height="90dp"
@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/padrao" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/img2"
         android:layout_width="@dimen/carta_largura"
         android:layout_height="@dimen/carta_altura"
@@ -30,7 +30,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/padrao" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/img3"
         android:layout_width="@dimen/carta_largura"
         android:layout_height="@dimen/carta_altura"
@@ -42,7 +42,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/padrao" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/img4"
         android:layout_width="@dimen/carta_largura"
         android:layout_height="@dimen/carta_altura"
@@ -54,7 +54,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/padrao" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/img5"
         android:layout_width="@dimen/carta_largura"
         android:layout_height="@dimen/carta_altura"
@@ -68,7 +68,7 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/padrao" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/img6"
         android:layout_width="@dimen/carta_largura"
         android:layout_height="@dimen/carta_altura"
@@ -82,7 +82,7 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/padrao" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/img7"
         android:layout_width="@dimen/carta_largura"
         android:layout_height="@dimen/carta_altura"
@@ -96,7 +96,7 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/padrao" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/img8"
         android:layout_width="@dimen/carta_largura"
         android:layout_height="@dimen/carta_altura"
